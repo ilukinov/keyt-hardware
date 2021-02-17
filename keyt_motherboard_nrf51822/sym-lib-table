@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name redox_rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/redox_rev1-rescue.lib)(options "")(descr ""))
+  (lib (name keyt)(type Legacy)(uri D:/workspace/arm/redox-keyboard/redox-w/pcb/rev1.0W/kicad_files/keyt.lib)(options "")(descr ""))
+  (lib (name redox_rev1-cache)(type Legacy)(uri "D:/workspace/arm/keyt/pcb/motherboard/keyt_motherboard_nrf51822 - Copy/redox_rev1-cache.lib")(options "")(descr ""))
+)

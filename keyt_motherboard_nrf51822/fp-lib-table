@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name redox_w_footprints)(type KiCad)(uri D:/workspace/arm/redox-keyboard/redox-w/pcb/rev1.0W/redox_w_footprints.pretty/redox_w_footprints.pretty)(options "")(descr ""))
+  (lib (name AAAA)(type KiCad)(uri D:/workspace/arm/redox-keyboard/redox-w/pcb/rev1.0W/switch/)(options "")(descr ""))
+  (lib (name RF_Module)(type KiCad)(uri C:/Users/illya/Downloads/kicad-footprints-master/RF_Module.pretty)(options "")(descr ""))
+  (lib (name keyt_footprints)(type KiCad)(uri D:/workspace/arm/keyt/pcb/kicad_libs/keyt_footprints.pretty)(options "")(descr ""))
+)
