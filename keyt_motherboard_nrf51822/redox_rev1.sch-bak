@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:redox_rev1-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -959,7 +959,7 @@ P02
 Text GLabel 7750 3350 3    60   Input ~ 0
 P03
 $Comp
-L redox_rev1-rescue:E73-2G4M04S1D-keyt U1
+L keyt:E73-2G4M04S1D U1
 U 1 1 5C733501
 P 9700 4700
 F 0 "U1" H 9700 6367 50  0000 C CNN
