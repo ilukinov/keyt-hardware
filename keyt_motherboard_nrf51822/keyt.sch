@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:redox_rev1-cache
-EELAYER 26 0
+LIBS:keyt-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D1
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D1
 U 1 1 5A808D18
 P 750 1150
 F 0 "D1" H 750 1250 50  0000 C CNN
@@ -28,7 +28,7 @@ $EndComp
 Wire Wire Line
 	600  1050 600  1150
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D8
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D8
 U 1 1 5A809C23
 P 750 2500
 F 0 "D8" H 750 2600 50  0000 C CNN
@@ -41,7 +41,7 @@ $EndComp
 Wire Wire Line
 	600  2400 600  2500
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D15
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D15
 U 1 1 5A80AB90
 P 750 3850
 F 0 "D15" H 750 3950 50  0000 C CNN
@@ -54,7 +54,7 @@ $EndComp
 Wire Wire Line
 	600  3750 600  3850
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D22
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D22
 U 1 1 5A80ABF1
 P 750 5300
 F 0 "D22" H 750 5400 50  0000 C CNN
@@ -67,7 +67,7 @@ $EndComp
 Wire Wire Line
 	600  5200 600  5300
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D29
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D29
 U 1 1 5A80E499
 P 750 6700
 F 0 "D29" H 750 6800 50  0000 C CNN
@@ -223,7 +223,7 @@ F 3 "" H 6250 6500 50  0001 C CNN
 $EndComp
 NoConn ~ 6450 6500
 $Comp
-L redox_rev1-rescue:Core51822B-core51822b U_LEFT1
+L keyt-rescue:Core51822B-core51822b-redox_rev1-rescue U_LEFT1
 U 1 1 5B82A707
 P 7900 2300
 F 0 "U_LEFT1" H 7900 3187 60  0000 C CNN
@@ -268,7 +268,7 @@ Connection ~ 600  3850
 Connection ~ 600  2500
 Connection ~ 600  1150
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D35
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D35
 U 1 1 5A80E4E7
 P 750 7600
 F 0 "D35" H 750 7700 50  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 750 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D34
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D34
 U 1 1 5A80E4DA
 P 750 7450
 F 0 "D34" H 750 7550 50  0000 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 750 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D33
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D33
 U 1 1 5A80E4CD
 P 750 7300
 F 0 "D33" H 750 7400 50  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 750 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D32
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D32
 U 1 1 5A80E4C0
 P 750 7150
 F 0 "D32" H 750 7250 50  0000 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 750 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D31
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D31
 U 1 1 5A80E4B3
 P 750 7000
 F 0 "D31" H 750 7100 50  0000 C CNN
@@ -325,7 +325,7 @@ $EndComp
 Wire Wire Line
 	600  6700 600  6850
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D30
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D30
 U 1 1 5A80E4A6
 P 750 6850
 F 0 "D30" H 750 6950 50  0000 C CNN
@@ -336,7 +336,7 @@ F 3 "" H 750 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D28
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D28
 U 1 1 5A80AC3F
 P 750 6200
 F 0 "D28" H 750 6300 50  0000 C CNN
@@ -347,7 +347,7 @@ F 3 "" H 750 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D27
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D27
 U 1 1 5A80AC32
 P 750 6050
 F 0 "D27" H 750 6150 50  0000 C CNN
@@ -358,7 +358,7 @@ F 3 "" H 750 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D26
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D26
 U 1 1 5A80AC25
 P 750 5900
 F 0 "D26" H 750 6000 50  0000 C CNN
@@ -369,7 +369,7 @@ F 3 "" H 750 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D25
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D25
 U 1 1 5A80AC18
 P 750 5750
 F 0 "D25" H 750 5850 50  0000 C CNN
@@ -380,7 +380,7 @@ F 3 "" H 750 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D24
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D24
 U 1 1 5A80AC0B
 P 750 5600
 F 0 "D24" H 750 5700 50  0000 C CNN
@@ -393,7 +393,7 @@ $EndComp
 Wire Wire Line
 	600  5300 600  5450
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D23
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D23
 U 1 1 5A80ABFE
 P 750 5450
 F 0 "D23" H 750 5550 50  0000 C CNN
@@ -404,7 +404,7 @@ F 3 "" H 750 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D21
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D21
 U 1 1 5A80ABDE
 P 750 4750
 F 0 "D21" H 750 4850 50  0000 C CNN
@@ -415,7 +415,7 @@ F 3 "" H 750 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D20
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D20
 U 1 1 5A80ABD1
 P 750 4600
 F 0 "D20" H 750 4700 50  0000 C CNN
@@ -426,7 +426,7 @@ F 3 "" H 750 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D19
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D19
 U 1 1 5A80ABC4
 P 750 4450
 F 0 "D19" H 750 4550 50  0000 C CNN
@@ -437,7 +437,7 @@ F 3 "" H 750 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D18
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D18
 U 1 1 5A80ABB7
 P 750 4300
 F 0 "D18" H 750 4400 50  0000 C CNN
@@ -448,7 +448,7 @@ F 3 "" H 750 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D17
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D17
 U 1 1 5A80ABAA
 P 750 4150
 F 0 "D17" H 750 4250 50  0000 C CNN
@@ -461,7 +461,7 @@ $EndComp
 Wire Wire Line
 	600  3850 600  4000
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D16
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D16
 U 1 1 5A80AB9D
 P 750 4000
 F 0 "D16" H 750 4100 50  0000 C CNN
@@ -472,7 +472,7 @@ F 3 "" H 750 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D13
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D13
 U 1 1 5A809C64
 P 750 3250
 F 0 "D13" H 750 3350 50  0000 C CNN
@@ -483,7 +483,7 @@ F 3 "" H 750 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D12
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D12
 U 1 1 5A809C57
 P 750 3100
 F 0 "D12" H 750 3200 50  0000 C CNN
@@ -494,7 +494,7 @@ F 3 "" H 750 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D11
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D11
 U 1 1 5A809C4A
 P 750 2950
 F 0 "D11" H 750 3050 50  0000 C CNN
@@ -505,7 +505,7 @@ F 3 "" H 750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D10
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D10
 U 1 1 5A809C3D
 P 750 2800
 F 0 "D10" H 750 2900 50  0000 C CNN
@@ -516,7 +516,7 @@ F 3 "" H 750 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D9
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D9
 U 1 1 5A809C30
 P 750 2650
 F 0 "D9" H 750 2750 50  0000 C CNN
@@ -527,7 +527,7 @@ F 3 "" H 750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D7
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D7
 U 1 1 5A8094AD
 P 750 2050
 F 0 "D7" H 750 2150 50  0000 C CNN
@@ -538,7 +538,7 @@ F 3 "" H 750 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D6
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D6
 U 1 1 5A8094A0
 P 750 1900
 F 0 "D6" H 750 2000 50  0000 C CNN
@@ -549,7 +549,7 @@ F 3 "" H 750 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D5
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D5
 U 1 1 5A809493
 P 750 1750
 F 0 "D5" H 750 1850 50  0000 C CNN
@@ -560,7 +560,7 @@ F 3 "" H 750 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D4
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D4
 U 1 1 5A809209
 P 750 1600
 F 0 "D4" H 750 1700 50  0000 C CNN
@@ -571,7 +571,7 @@ F 3 "" H 750 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D3
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D3
 U 1 1 5A8091FC
 P 750 1450
 F 0 "D3" H 750 1550 50  0000 C CNN
@@ -584,7 +584,7 @@ $EndComp
 Wire Wire Line
 	600  1150 600  1300
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D2
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D2
 U 1 1 5A80908F
 P 750 1300
 F 0 "D2" H 750 1400 50  0000 C CNN
@@ -677,7 +677,7 @@ Wire Wire Line
 Wire Wire Line
 	600  3250 600  3400
 $Comp
-L redox_rev1-rescue:D-redox_rev1-rescue D14
+L keyt-rescue:D-redox_rev1-rescue-redox_rev1-rescue D14
 U 1 1 5A809C71
 P 750 3400
 F 0 "D14" H 750 3500 50  0000 C CNN
@@ -959,7 +959,7 @@ P02
 Text GLabel 7750 3350 3    60   Input ~ 0
 P03
 $Comp
-L keyt:E73-2G4M04S1D U1
+L keyt-rescue:E73-2G4M04S1D-keyt-redox_rev1-rescue U1
 U 1 1 5C733501
 P 9700 4700
 F 0 "U1" H 9700 6367 50  0000 C CNN
@@ -1086,74 +1086,4 @@ Text GLabel 10600 5500 2    60   Input ~ 0
 P12
 Text GLabel 7900 4850 2    60   Input ~ 0
 P12
-Text GLabel 600  1150 0    60   Input ~ 0
-col0
-Text GLabel 600  2500 0    60   Input ~ 0
-col0
-Text GLabel 600  3850 0    60   Input ~ 0
-col0
-Text GLabel 600  5300 0    60   Input ~ 0
-col0
-Text GLabel 600  6700 0    60   Input ~ 0
-col0
-Text GLabel 600  1300 0    60   Input ~ 0
-col1
-Text GLabel 600  2650 0    60   Input ~ 0
-col1
-Text GLabel 600  4000 0    60   Input ~ 0
-col1
-Text GLabel 600  5450 0    60   Input ~ 0
-col1
-Text GLabel 600  6850 0    60   Input ~ 0
-col1
-Text GLabel 600  1450 0    60   Input ~ 0
-col2
-Text GLabel 600  2800 0    60   Input ~ 0
-col2
-Text GLabel 600  4150 0    60   Input ~ 0
-col2
-Text GLabel 600  5600 0    60   Input ~ 0
-col2
-Text GLabel 600  7000 0    60   Input ~ 0
-col2
-Text GLabel 600  1600 0    60   Input ~ 0
-col3
-Text GLabel 600  2950 0    60   Input ~ 0
-col3
-Text GLabel 600  4300 0    60   Input ~ 0
-col3
-Text GLabel 600  5750 0    60   Input ~ 0
-col3
-Text GLabel 600  7150 0    60   Input ~ 0
-col3
-Text GLabel 600  1750 0    60   Input ~ 0
-col4
-Text GLabel 600  3100 0    60   Input ~ 0
-col4
-Text GLabel 600  4450 0    60   Input ~ 0
-col4
-Text GLabel 600  5900 0    60   Input ~ 0
-col4
-Text GLabel 600  7300 0    60   Input ~ 0
-col4
-Text GLabel 600  1900 0    60   Input ~ 0
-col5
-Text GLabel 600  3250 0    60   Input ~ 0
-col5
-Text GLabel 600  4600 0    60   Input ~ 0
-col5
-Text GLabel 600  6050 0    60   Input ~ 0
-col5
-Text GLabel 600  7450 0    60   Input ~ 0
-col5
-Text GLabel 600  2050 0    60   Input ~ 0
-col6
-Text GLabel 600  3400 0    60   Input ~ 0
-col6
-Text GLabel 600  4750 0    60   Input ~ 0
-col6
-Text GLabel 600  6200 0    60   Input ~ 0
-col6
-Text GLabel 600  7600 0    60   Input ~ 0
-col6
 $EndSCHEMATC

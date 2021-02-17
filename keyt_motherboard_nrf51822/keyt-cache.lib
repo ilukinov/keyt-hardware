@@ -130,38 +130,11 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# keyt-rescue_Core51822B-core51822b-redox_rev1-rescue
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# redox_rev1-rescue_Core51822B-core51822b
-#
-DEF redox_rev1-rescue_Core51822B-core51822b U 0 40 Y Y 1 F N
+DEF keyt-rescue_Core51822B-core51822b-redox_rev1-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 100 60 H V C CNN
-F1 "redox_rev1-rescue_Core51822B-core51822b" 0 -50 60 H V C CNN
+F1 "keyt-rescue_Core51822B-core51822b-redox_rev1-rescue" 0 -50 60 H V C CNN
 F2 "" 0 100 60 H I C CNN
 F3 "" 0 100 60 H I C CNN
 DRAW
@@ -205,11 +178,11 @@ X P28 9 -950 -300 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# redox_rev1-rescue_D-redox_rev1-rescue
+# keyt-rescue_D-redox_rev1-rescue-redox_rev1-rescue
 #
-DEF redox_rev1-rescue_D-redox_rev1-rescue D 0 40 N N 1 F N
+DEF keyt-rescue_D-redox_rev1-rescue-redox_rev1-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "redox_rev1-rescue_D-redox_rev1-rescue" 0 -100 50 H V C CNN
+F1 "keyt-rescue_D-redox_rev1-rescue-redox_rev1-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -228,11 +201,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# redox_rev1-rescue_E73-2G4M04S1D-keyt
+# keyt-rescue_E73-2G4M04S1D-keyt-redox_rev1-rescue
 #
-DEF redox_rev1-rescue_E73-2G4M04S1D-keyt U 0 20 Y Y 1 F N
+DEF keyt-rescue_E73-2G4M04S1D-keyt-redox_rev1-rescue U 0 20 Y Y 1 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "redox_rev1-rescue_E73-2G4M04S1D-keyt" 0 -50 50 H V C CNN
+F1 "keyt-rescue_E73-2G4M04S1D-keyt-redox_rev1-rescue" 0 -50 50 H V C CNN
 F2 "RF_Module:E73-2G4M04S1D" 0 450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 $FPLIST
@@ -276,6 +249,33 @@ X AIN0/P0.28 6 -900 -300 100 R 50 50 1 1 B
 X AIN0/P0.29 7 -900 -400 100 R 50 50 1 1 B
 X AIN0/P0.30 8 -900 -500 100 R 50 50 1 1 B
 X AIN0/P0.00 9 -900 -600 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

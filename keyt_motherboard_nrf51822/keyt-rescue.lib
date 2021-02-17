@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Core51822B-core51822b
+# Core51822B-core51822b-redox_rev1-rescue
 #
-DEF Core51822B-core51822b U 0 40 Y Y 1 F N
+DEF Core51822B-core51822b-redox_rev1-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 100 60 H V C CNN
-F1 "Core51822B-core51822b" 0 -50 60 H V C CNN
+F1 "Core51822B-core51822b-redox_rev1-rescue" 0 -50 60 H V C CNN
 F2 "" 0 100 60 H I C CNN
 F3 "" 0 100 60 H I C CNN
 DRAW
@@ -49,11 +49,11 @@ X P28 9 -950 -300 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# D-redox_rev1-rescue
+# D-redox_rev1-rescue-redox_rev1-rescue
 #
-DEF D-redox_rev1-rescue D 0 40 N N 1 F N
+DEF D-redox_rev1-rescue-redox_rev1-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D-redox_rev1-rescue" 0 -100 50 H V C CNN
+F1 "D-redox_rev1-rescue-redox_rev1-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -72,11 +72,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# E73-2G4M04S1D-keyt
+# E73-2G4M04S1D-keyt-redox_rev1-rescue
 #
-DEF E73-2G4M04S1D-keyt U 0 20 Y Y 1 F N
+DEF E73-2G4M04S1D-keyt-redox_rev1-rescue U 0 20 Y Y 1 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "E73-2G4M04S1D-keyt" 0 -50 50 H V C CNN
+F1 "E73-2G4M04S1D-keyt-redox_rev1-rescue" 0 -50 50 H V C CNN
 F2 "RF_Module:E73-2G4M04S1D" 0 450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 $FPLIST
@@ -120,22 +120,6 @@ X AIN0/P0.28 6 -900 -300 100 R 50 50 1 1 B
 X AIN0/P0.29 7 -900 -400 100 R 50 50 1 1 B
 X AIN0/P0.30 8 -900 -500 100 R 50 50 1 1 B
 X AIN0/P0.00 9 -900 -600 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# KEYSW-redox_rev1-rescue
-#
-DEF KEYSW-redox_rev1-rescue K? 0 40 Y Y 1 F N
-F0 "K?" -50 0 60 H V C CNN
-F1 "KEYSW-redox_rev1-rescue" 0 -100 60 H I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C -200 0 50 0 1 0 N
-C 200 0 50 0 1 0 N
-P 2 0 1 10 -200 50 150 150 N
-X ~ 1 300 0 50 L 60 60 1 1 P
-X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #

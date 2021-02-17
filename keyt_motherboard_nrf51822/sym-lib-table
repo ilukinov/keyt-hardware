@@ -2,4 +2,5 @@
   (lib (name redox_rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/redox_rev1-rescue.lib)(options "")(descr ""))
   (lib (name keyt)(type Legacy)(uri ${KIPRJMOD}/keyt.lib)(options "")(descr ""))
   (lib (name redox_rev1-cache)(type Legacy)(uri ${KIPRJMOD}/redox_rev1-cache.lib)(options "")(descr ""))
+  (lib (name keyt-rescue)(type Legacy)(uri ${KIPRJMOD}/keyt-rescue.lib)(options "")(descr ""))
 )
